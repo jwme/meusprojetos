@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Fuja Quadrado</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <style>
+        canvas {
+            border: solid 1px black;
+            width: 500px;
+            height: 500px;
+        }
+    </style>
+
+  </head>
+  <body>
+      <div>
+          <canvas id="game-area">
+              Seu navegador não suporta o elemento Canvas
+          </canvas>
+      </div>
+
+  </body>
+
+  <script>
+        let canvas = document.getElementById("game-area");
+        let ctx = canvas.getContext("2d");
+
+        let rect = {
+            x: 20,
+            y: 20,
+            width: 50,
+            heigth: 50,
+            right: () => {},
+            left: () => {},
+            top: () => {},
+            bottom: () => {}
+        }
+        let mouseRect = {
+            x: 200,
+            y: 200,
+            width: 50,
+            heigth: 50,
+            right: () => {},
+            left: () => {},
+            top: () => {},
+            bottom: () => {}
+        }
+
+        function desenharRetangulo() {
+            ctx.fillRect(20, 20, 50, 50);
+        }
+
+        function limparTela() {
+            ctx.clearRect(20, 20, 50, 50);
+        }
+
+        function atualizar(event) {
+            limparTela();
+            desenharRetangulo();
+        } 
+
+        canvas.addEventListener("mousemove", e => {
+            atualizar(e);
+        })
+  </script>
+
+</html>
