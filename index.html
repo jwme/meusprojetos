@@ -3,10 +3,62 @@
   <head>
     <title>WaterCup - Gerenciador</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-decoration: none;
+      }
+
+      body {
+        background-color: lightblue;
+      }
+
+      .logo-water-cup {
+        display: inline-flex;
+        padding: 10px;
+        background-color: aquamarine;
+        width: 100%;
+      }
+
+      .logo-water-cup img {
+        border-radius: 50%;
+      }
+
+      .title-water-cup {
+        position: relative;
+        width: 50%;
+      }
+
+      .title-water-cup h1 {
+        margin-left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+      }
+    </style>
+
+  </head>
   <body>
       <div class="conteiner">
-        
+        <section>
+          <header>
+            <div class="cabecalho">
+              <div class="logo-water-cup">
+                <img src="data:image/png;base64,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" width="50">            
+                <div class="title-water-cup">
+                  <h1>WaterCup - por Otávio Oliveira</h1>
+                </div>
+              </div>
+              <div>
+                <a href="#"><img src=""></a>
+              </div>             
+            </div>
+          </header>
+        </section>
       </div>
   </body>
 </html>
