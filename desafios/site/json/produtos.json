@@ -1,3 +1,91 @@
-{
-    "Nome": ""
-}
+[
+    {
+        "Nome": "Teclado Gamer Enemy, Elg, Teclados",
+        "Marca": "ELG",
+        "imagem": "https://images-na.ssl-images-amazon.com/images/I/71vLMPNhtWL._AC_SL1500_.jpg",
+        "Avaliação": 4,
+        "Preço": "105,59",
+        "Categoria": ["Eletronicos", "teclado"],
+        "Descricao": [
+            "Iluminação backlight RGB Chroma customizável.",
+            "Curso de acionamento das teclas de 0, 9mm.",
+            "Toque macio e confortável para horas de jogo sem fadiga.",
+            "Durabilidade das teclas de 20 milhões de toques.", 
+            "Cabo de 1, 35m.Interface USB 2.0.",
+            "Curso total das teclas 3.5mm 0,3mm."
+        ]
+    },
+    {
+        "Nome": "Teclado Gamer Killer Soul, Elg, Teclados",
+        "Marca": "ELG",
+        "imagem": "https://images-na.ssl-images-amazon.com/images/I/71vLMPNhtWL._AC_SL1500_.jpg",
+        "Avaliação": 4,
+        "Preço": "85,90",
+        "Categoria": ["Eletronicos", "teclado"],
+        "Descricao": [
+            "Curso de acionamento das teclas de 0, 9mm.",
+            "Curso total das teclas 3.5mm 0, 3mm.",
+            "Toque macio e confortável para horas de jogo sem fadiga.",
+            "Durabilidade das teclas de 10 milhões de toques.",
+            "Cabo de 1,5 m.",
+            "Interface USB 2.0."
+        ]
+    },
+    {
+        "Nome": "Multilaser Combo Teclado e Mouse Sem Fio de Entrada Multimídia USB - TC212, Preto",
+        "Marca": "Multilaser",
+        "imagem": "https://images-na.ssl-images-amazon.com/images/I/51e39znvzrL._AC_SL1000_.jpg",
+        "Avaliação": 4,
+        "Preço": "89,99",
+        "Categoria": ["Eletronicos", "teclado"],
+        "Descricao": [
+            "Receptor usb encontrado dentro do mouse, encaixado ao lado da pilha.",
+            "Conexão automática, conecte a entrada usb e começa a usar.",
+            "Possui design elegante além de manter suas mãos em uma posição agradável.",
+            "Praticidade e conforto.",
+            "Preto."
+        ]
+    },
+    {
+        "Nome": "Mouse USB, C3Tech, Ms-20Bk, Mouses, 402021060101, Preto",
+        "Marca": "C3Tech",
+        "imagem": "https://images-na.ssl-images-amazon.com/images/I/41fdowOAIKL._AC_SL1000_.jpg",
+        "Avaliação": 4.5,
+        "Preço": "12,99",
+        "Categoria": ["Eletronicos", "mouse"],
+        "Descricao": [
+            "O MS-20 e um mouse USB de facil configuração.",
+            "oferece ótima navegabilidade e precisão.",
+            "compativel com PC/Mac e um produto com excelente custo-beneficio."
+        ]
+    },
+    {
+        "Nome": "Mouse sem fio Logitech M170 com Design Ambidestro Compacto, Conexão USB e Pilha Inclusa - Preto",
+        "Marca": "Logitech",
+        "imagem": "https://images-na.ssl-images-amazon.com/images/I/51p1FOjU-lL._AC_SL1500_.jpg",
+        "Avaliação": 5,
+        "Preço": "52,90",
+        "Categoria": ["Eletronicos", "mouse"],
+        "Descricao": [
+            "Conectividade sem fio confiável.",
+            "Alcance sem fio de 10 metros.",
+            "Pilha inclusa com duração de até 12 meses.",
+            "Instalação fácil - Plug-and-Play.",
+            "Compatibilidade universal: Windows, Mac, Chrome."
+        ]
+    },
+    {
+        "Nome": "Mouse HP USB 100 Preto - Sensor Óptico Ambidestro Resoluções até 1600 DPI Compatível com PC/Mac - 6VY96AA",
+        "Marca": "HP",
+        "imagem": "https://images-na.ssl-images-amazon.com/images/I/51LFVxrXH7L._AC_SL1000_.jpg",
+        "Avaliação": 4.5,
+        "Preço": "35,99",
+        "Categoria": ["Eletronicos", "mouse"],
+        "Descricao": [
+            "Um design ambidestro confortável.",
+            "Manter o contato acaba de ficar bem mais confortável com o Mouse HP 100.",
+            "Projetado para uso diario.",
+            "Este mouse ambidestro e configurado em segundos e foi produzido para caber naturalmente na sua mão."
+        ]
+    }
+]
