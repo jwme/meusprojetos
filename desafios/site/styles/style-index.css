@@ -1,0 +1,74 @@
+* {
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    font-family:  'Open Sans', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.conteiner-cabecalho {
+    width: 100%;
+    height: 70px;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+}
+
+.caixa-pesquisa {
+    display: flex;
+    padding: 5px;
+    background-color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caixa-pesquisa input {
+    width: 100%;
+    padding: 5px;
+}
+
+.logo a {
+    position: relative;
+    left: 30px;    
+}
+
+.conta {
+    margin-right: 25px;
+}
+
+.conta button {
+    position: relative;
+    right: 30px;
+    background-color: transparent;
+}
+
+.conta div {
+    position: absolute;
+    width: 25px;
+    text-align: center;
+    background-color: white;
+    color: lightgreen;
+    font-size: 15px;
+    border-radius: 50%;
+    top: 0.5rem;
+    right: 50px;
+}
+
+.menu-conta {
+    margin-right: auto;
+    display: flex;
+}
+
+.menu-conta a {
+    margin-right: 10px;
+    color: black;
+    font-weight: bold;
+}
